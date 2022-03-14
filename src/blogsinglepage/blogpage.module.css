@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.left{
+    flex:0.85;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    background-color:rgb(245, 239, 239);
+    
+}
+.flutter{
+    width: 92%;
+    font-size: 70px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    /* background-color: brown; */
+}
+.sub{
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.icons{
+    padding-right: 50px;
+
+}
+.right{
+    flex:1.15;
+    background-color: rgb(86, 86, 172);
+    /* border-radius: 20px 0px; */
+    
+}
+.rightimg{
+    width:95%;
+    height: 95%;
+    object-fit: cover;
+    margin-top: 60px;
+    margin-left: -15px;
+    border-radius: 20px;
+    /* height: 200px; */
+}
+.content{
+    display: flex;
+    /* height: 100vh; */
+    width: 100%;
+    background-color:rgb(209, 213, 228);
+}
+.contentleft{
+    flex:0.85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contimg{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.contentright{
+    flex: 1.15;
+
+}
+h1.conthead{
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.maincont{
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.morecontent{
+    display: flex;
+    width: 100%;
+    background-color:rgb(245, 239, 239);
+}
+.moreleft{
+    /* padding: 30px; */
+    flex:0.85;
+    /* background-color: aqua; */
+}
+h1.morehead{
+    font-size: 60px;
+    padding: 20px;
+}
+p.morecont{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+}
+.moreright{
+    flex:1.15;
+
+
+}
+.moreimg{
+    width: 90%;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.totalcontainer{
+    width: 100%;
+    padding: 30px;
+}
+.totalviews{
+
+    width: 90%;
+    margin: auto;
+    background-color:rgb(245, 239, 239) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total{
+    font-size: 60px;
+}
+span{
+    font-size: 60px;
+}
+.prevrollout{
+    padding-left: 40px;
+    font-size: 50px;
+    /* background-color:rgb(209, 213, 228) ; */
+    text-decoration: underline;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color:rgb(209, 213, 228) ; */
+    
+    /* flex-direction: column; */
+    padding: 10px;
+    
+    /* padding-top: 0px; */
+
+    
+
+}
+.prevcontainer{
+    display:flex;
+    
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(147, 147, 211);
+    border-radius: 20px;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+.imgcontain{
+    width: 100%;
+    
+}
+.fluttimg{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    /* position: relative; */
+    
+    
+}
+.wrap{
+    /* margin: auto; */
+    padding: 20px;
+    padding-left: 40px;
+}
+.prevtitle{
+    color:white;
+}
+.prevsub{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:1200px ){
+    
+    .rightimg{
+        width: 90%;
+        /* height: 100%; */
+        /* height: 514px; */
+    }
+    .contimg{
+        width: 300px;
+        height: 500px;
+    }
+}
+@media screen  and (max-width:768px ){
+    /* .container{
+        display: none;
+    } */
+    .left{
+        flex: 1;
+    }
+    .flutter{
+        font-size: 50px;
+    }
+    .right{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        flex:1;
+        
+    }
+    .maincont{
+        font-size: 20px;
+    }
+    .contentleft{
+        display: none;
+    }
+   
+    .contentright{
+        /* margin: auto; */
+        /* margin-left: 50px; */
+        padding: 20px;
+        padding-left: 10%;
+    }
+    .morecontent{
+        flex-direction: column-reverse;
+    }
+    
+    .total{
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .moreright{
+        margin-left: 8%;
+
+    }
+    /* .moreimg{
+        margin: auto;
+    } */
+    .moreleft{
+        margin-left: 4%;
+        margin-right: 5%;
+    }
+    .prevcontainer{
+        width: 300px;
+        
+        
+    }
+    .prevrollout{
+        font-size: 30px;
+    }
+    h1.conthead{
+        font-size: 50px;
+    }
+    h1.morehead{
+        font-size: 50px;
+        /* padding: 20px; */
+    }
+}
+@media screen  and (max-width:370px ){
+    .left{
+        width: 100%;
+    }
+    .flutter{
+        font-size: 30px;
+    }
+    .sub{
+        font-size: 15px;
+    }
+}
